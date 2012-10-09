@@ -9,6 +9,8 @@
            fetch="git://android.git.linaro.org/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
+  <remote name="jgomez"
+	  fetch="git://github.com/atilag/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="linaro"
            sync-j="4" />
@@ -96,6 +98,6 @@
   <!-- Galaxy S2 things -->
   <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="b2g" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
+  <project path="external/skia" name="skia-b2g-sgs2" remote="jgomez" revision="master" />
 
 </manifest>
