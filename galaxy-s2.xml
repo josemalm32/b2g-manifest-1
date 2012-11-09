@@ -21,8 +21,8 @@
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="b2g" revision="master" />
-  <project path="gecko" name="releases-mozilla-central" remote="mozilla" revision="master" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
+  <project path="gecko" name="releases-mozilla-central" remote="jgomez" revision="master" />
+  <project path="gonk-misc" name="gonk-misc" remote="jgomez" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
 
@@ -96,7 +96,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Galaxy S2 things -->
-  <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="b2g" revision="master" />
+  <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="jgomez" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
 
