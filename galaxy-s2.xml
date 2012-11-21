@@ -11,6 +11,8 @@
 	  fetch="git://github.com/mozilla/" />
   <remote name="jgomez"
 	  fetch="git://github.com/atilag/" />
+  <remote name="mozillaorg"
+      fetch="https://git.mozilla.org" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="linaro"
            sync-j="4" />
@@ -20,7 +22,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="b2g" revision="master" />
   <project path="gecko" name="releases-mozilla-central" remote="jgomez" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="jgomez" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
@@ -99,5 +100,6 @@
   <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="jgomez" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
+  <project path="frameworks/base/media/libmedia" name="android-frameworks-base-libmedia-samsung" revision="master" />
 
 </manifest>
