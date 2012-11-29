@@ -12,7 +12,7 @@
   <remote name="jgomez"
 	  fetch="git://github.com/atilag/" />
   <remote name="mozillaorg"
-      fetch="https://git.mozilla.org" />
+      fetch="https://git.mozilla.org/releases" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="linaro"
            sync-j="4" />
@@ -22,8 +22,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="releases/gaia" remote="mozillaorg" revision="master" />
-  <project path="gecko" name="releases-mozilla-central" remote="jgomez" revision="atila" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
+  <project path="gecko" name="mozilla-central" remote="jgomez" revision="atila" />
   <project path="gonk-misc" name="gonk-misc" remote="jgomez" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
