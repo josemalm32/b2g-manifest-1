@@ -22,7 +22,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1-train" />
   <project path="gecko" name="mozilla-central" remote="jgomez" revision="atila" />
   <project path="gonk-misc" name="gonk-misc" remote="jgomez" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
@@ -98,9 +98,8 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Galaxy S2 things -->
-  <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="jgomez" revision="master" />
+  <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="jgomez" revision="atila" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
-  <project path="frameworks/base/media/libmedia" name="android-frameworks-base-libmedia-samsung" remote="jgomez" revision="master" />
 
 </manifest>
