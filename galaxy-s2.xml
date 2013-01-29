@@ -20,7 +20,6 @@
   <project path="build" name="platform_build" remote="jgomez" revision="atila">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" upstream="v1.0.0"/>
   <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.0.0"/>
   <project path="gecko" name="mozilla-central" remote="jgomez" revision="atila" />
