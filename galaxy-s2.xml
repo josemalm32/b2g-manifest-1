@@ -27,7 +27,6 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="f634b3d50effdd42828cc757c01fdbf74e562a36" upstream="v1.0.0"/>
   <project path="external/moztt" name="moztt" remote="b2g" revision="6ee1f8987ef36d688f97064c003ad57849dfadf2" upstream="v1.0.0"/> 
 
- <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
   <project path="bionic" name="platform/bionic" revision="3d11bf0f3f3cf848f6f1e8449bf8736d8d1c78a3"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="fadc5ac81d6400ebdd041f7d4ea64021596d6b7d"/>
@@ -61,11 +60,11 @@
   <project path="external/libpng" name="platform/external/libpng" revision="84d92c718ab9f48faec0f640747c4b6f7a995607"/>
   <project path="external/libvpx" name="platform/external/libvpx" revision="3a40da0d96da5c520e7707aa14f48a80956e20d7"/>
   <project path="external/mksh" name="platform/external/mksh" revision="5155f1c7438ef540d7b25eb70aa1639579795b07"/>
-  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354" upstream="v1.0.0"/>
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354" upstream="v1-train"/>
   <project path="external/openssl" name="platform/external/openssl" revision="ce96fb211b9a44bbd7fb5ef7ed0e6c1244045c2e"/>
   <project path="external/protobuf" name="platform/external/protobuf" revision="e217977611c52bccde7f7c78e1d3c790c6357431"/>
   <project path="external/safe-iop" name="platform/external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="e6403c71e9eca8cb943739d5a0a192deac60fc51" upstream="v1.0.0"/>
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="e6403c71e9eca8cb943739d5a0a192deac60fc51" upstream="v1-train"/>
   <project path="external/sonivox" name="platform/external/sonivox" revision="5f9600971859fe072f31b38a51c38157f5f9b381"/>
   <project path="external/speex" name="platform/external/speex" revision="ebe6230a7f7c69f5a4389f2b09b7b19ef9e94f32"/>
   <project path="external/sqlite" name="platform/external/sqlite" revision="c999ff8c12a4cf81cb9ad628f47b2720effba5e5"/>
@@ -96,11 +95,10 @@
   <project path="system/netd" name="platform/system/netd" revision="3c903b555975fa59d6688a0a6417ac7512c202e7"/>
   <project path="system/vold" name="platform/system/vold" revision="3ad9072a5d6f6bda32123b367545649364e3c11d"/>
 
-
   <!-- Galaxy S2 things -->
   <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="jgomez" revision="atila" />
 <!-- project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="b2g" revision="987b9c9140e838c0972df6185549e61d2d067e47" upstream="v1.0.0"/-->
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="07ef2f509a362cc6a5825d0d19143dc4bd2474e0"/>
-  <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="e2d7caf0363dec74d77f7e7adbe5b4cce0c6524c" upstream="v1.0.0"/>
+  <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="e2d7caf0363dec74d77f7e7adbe5b4cce0c6524c" upstream="v1-train"/>
 </manifest>
 
