@@ -22,7 +22,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
+  <!-- project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" / -->
+  <project path="gaia" name="gaia.git" remote="jgomez" revision="master-sgs2" />
   <project path="gecko" name="mozilla-central" remote="jgomez" revision="master-sgs2" />
   <project path="gonk-misc" name="gonk-misc" remote="jgomez" revision="master-sgs2" />
    <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
