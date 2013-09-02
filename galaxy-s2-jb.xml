@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<manifest>
+  <include name="base-jb.xml"/>
+
+  <remote  name="atila"
+           fetch="git://github.com/atilag/" />
+
+  <default remote="aosp" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
+
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="android_device_samsung_i9100" path="device/samsung/i9100" remote="atila" />
+  <project name="android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="atila" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="atila" />
+  <!-- project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="atila" /-->
+  
+ </manifest>
