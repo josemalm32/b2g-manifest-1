@@ -12,10 +12,21 @@
 
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
-  <project name="android_device_samsung_i9100" path="device/samsung/i9100" remote="atila" revision="cm-10.2" />
+  <project name="android_device_samsung_i9100" path="device/samsung/i9100" remote="atila" revision="cm-10.2-b2g" />
   <project name="android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="atila" revision="cm-10.2" />
   <project name="android_hardware_samsung" path="hardware/samsung" remote="atila" revision="cm-10.2"/>
   <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="CyanogenMod" revision="cm-10.2" />
+  <project name="android_frameworks_base" path="platform/frameworks/base" remote="CyanogenMod" revision="cm-10.2" />
+  <project name="android_frameworks_native" path="platform/frameworks/native" remote="CyanogenMod" revision="cm-10.2" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="CyanogenMod" revision="cm-10.2" />
+  <project path="system/core" name="android_system_core" remote="CyanogenModsystem" revision="cm-10.2" />
+  <project path="system/vold" name="android_system_vold" remote="CyanogenModsystem" revision="cm-10.2" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="CyanogenMod" revision="cm-10.2" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="CyanogenMod" revision="cm-10.2" />
+  <!-- Needed by Cyanogenmod -->
+  <project path="external/pigz" name="android_external_pigz" remote="CyanogenMod" revision="cm-10.2" />
+  <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="CyanogenMod" revision="cm-10.2" />
+  <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-10.2" />  />
   <!-- project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="atila" /-->
   
  </manifest>
