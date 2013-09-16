@@ -21,7 +21,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform_system_core" />
-  <remove-project name="system/vold" />
+  <remove-project name="platform/system/vold" />
   <remove-project name="bootable/recovery" />
   <remove-project name="external/yaffs2" />
   <remove-project name="external/zlib" />
