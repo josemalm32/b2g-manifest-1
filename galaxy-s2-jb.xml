@@ -22,10 +22,10 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform_system_core" />
   <remove-project name="platform/system/vold" />
-  <remove-project name="bootable/recovery" />
-  <remove-project name="external/yaffs2" />
-  <remove-project name="external/zlib" />
-  <remove-project name="system/extras" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/external/yaffs2" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/system/extras" />
   <project name="platform/frameworks/base" path="frameworks/base" remote="CyanogenMod" revision="cm-10.2" />
   <project name="platform/frameworks/native" path="frameworks/native" remote="CyanogenMod" revision="cm-10.2" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="CyanogenMod" revision="cm-10.2" />
