@@ -8,7 +8,8 @@
   <remote  name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
 
-  <default remote="aosp" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
+  <!-- default remote="aosp" revision="refs/tags/android-4.3_r2.1" sync-j="4"/ -->
+  <default remote="caf" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
 
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
