@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<manifest>
+  <include name="base-jb.xml"/>
+
+  <remote  name="atila"
+           fetch="git://github.com/atilag/" />
+
+  <remote  name="CyanogenMod"
+           fetch="git://github.com/CyanogenMod/" />
+
+  <default remote="caf" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
+
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="android_device_samsung_i9100" path="device/samsung/i9100" remote="atila" revision="cm-10.2-b2g" />
+  <project name="android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="atila" revision="cm-10.2-b2g" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="atila" revision="cm-10.2-b2g"/>
+  <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="CyanogenMod" revision="cm-10.2" />
+  <!-- Needed by Cyanogenmod -->
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="libhardware_caf_exynos4" remote="atila" revision="sgs2-jb" /> 
+  <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-10.2" /> 
+  <project path="hardware/ril" name="android_hardware_ril" remote="CyanogenMod" revision="cm-10.2"  />
+  <!-- project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="atila" /-->
+ 
+  <!-- Mozilla stuff patched by me --> 
+  <project name="Gecko" path="gecko" remote="atila" revision="sgs2-jb-v1.4" />
+ </manifest>
