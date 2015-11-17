@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base-l-aosp.xml"/>
+
+  <remote fetch=".." name="fairphone" review="code.fairphone.com/gerrit"/>  
+  <default remote="caf" revision="LA.BF.1.1.1-03010-8x74.0" sync-j="4"/>
+
+  <project groups="pdk-cw-fs" name="device/common" path="device/common" />
+  <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" />
+  <project groups="pdk" name="device/generic/common" path="device/generic/common" />
+  <project name="device/qcom/common" path="device/qcom/common" >
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
+  <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" />
+  <project name="kernel/msm" path="kernel" />
+  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />  
+  <project name="platform/system/qcom" path="system/qcom" />
+  <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974" />
+  <project name="platform/vendor/qcom/msm8226" path="device/qcom/msm8226" />
+  <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" />
+<!--- Fairphone repo -->
+  <project name="fp2-dev/device/fairphone_devices/common" path="device/fairphone_devices/common" remote="fairphone" revision="fp2-sibon" />
+  <project name="fp2-dev/device/fairphone_devices/fairphone" path="device/fairphone_devices/FP2" remote="fairphone" revision="fp2-sibon" />
+  <project name="fp2-dev/device/fairphone_devices/sepolicy" path="device/fairphone_devices/sepolicy" remote="fairphone" revision="fp2-sibon" />
+</manifest>
