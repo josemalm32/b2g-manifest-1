@@ -5,7 +5,6 @@
   <remote fetch=".." name="fairphone" review="code.fairphone.com/gerrit"/>  
   <default remote="caf" revision="LA.BF.1.1.1-03010-8x74.0" sync-j="4"/>
 
-  <project groups="pdk-cw-fs" name="device/common" path="device/common" />
   <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" />
   <project groups="pdk" name="device/generic/common" path="device/generic/common" />
   <project name="device/qcom/common" path="device/qcom/common" >
