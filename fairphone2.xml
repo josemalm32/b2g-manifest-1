@@ -2,7 +2,7 @@
 <manifest>
   <include name="base-l-aosp.xml"/>
   <remote fetch="ssh://code.fairphone.com:29418/" name="fairphone" />
-  <!-- remote fetch=".." name="fairphone" review="code.fairphone.com/gerrit" --/>  
+  <!-- remote fetch=".." name="fairphone" review="code.fairphone.com/gerrit" -->  
   <default remote="caf" revision="LA.BF.1.1.1-03010-8x74.0" sync-j="4"/>
 
   <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" />
