@@ -3,7 +3,7 @@
   <include name="base-l-aosp.xml"/>
   <remote fetch="ssh://code.fairphone.com:29418/" name="fairphone" />
   <!-- remote fetch=".." name="fairphone" review="code.fairphone.com/gerrit" -->  
-  <default remote="caf" revision="LA.BF.1.1.1-03010-8x74.0" sync-j="4"/>
+  <default remote="caf" revision="LA.BF.1.1.1_rb1.18" sync-j="4"/>
 
   <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" />
   <project groups="pdk" name="device/generic/common" path="device/generic/common" />
