@@ -10,7 +10,7 @@
   <project name="device/qcom/common" path="device/qcom/common" >
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" />
+  <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" revision="master" />
   <project name="kernel/msm" path="kernel" />
   <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />  
   <project name="platform/system/qcom" path="system/qcom" />
