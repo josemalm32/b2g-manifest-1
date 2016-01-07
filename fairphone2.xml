@@ -32,7 +32,7 @@
   <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display" />
 
   <!-- Device configuration -->
-  <project name="device-fairphone2" path="device/fairphone_devices/FP2" remote="b2g" revision="master" />
+  <project name="device-fairphone2" path="device/fairphone/FP2" remote="b2g" revision="master" />
   <project name="device_qcom_common" path="device/qcom/common" remote="b2g" revision="fp2-sibon" />
   <project name="fairphone2_kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="fp2-sibon" />
   <project groups="pdk" name="device/generic/goldfish"  path="device/generic/goldfish" />
